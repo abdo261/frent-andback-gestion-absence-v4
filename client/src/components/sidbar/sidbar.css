@@ -4,11 +4,12 @@
   border-right: 1px solid #dedede;
   position: sticky;
   top: 50px;
- 
+ /* border-top-left-radius:10px ; */
+ border-top-right-radius:10px ;
 }
 .toggle {
   position: absolute;
-  right: -10px;
+  right: -15px;
   width: 25px;
   height: 25px;
   background-color: rgb(224, 224, 227);
@@ -19,7 +20,7 @@
   align-items: center;
   cursor: pointer;
   transition: ease-in-out 0.3s;
-  top: 5px;
+  top: 10px;
 }
 span.rotate {
   transform: rotate(0deg);
@@ -80,15 +81,15 @@ button.sidbar-button {
   height: 100%;
   font-weight: 600;
   color: black;
-  transition: ease-in-out 0.3s
+  transition: ease-in-out 0.2s
 ;
 }
 button.sidbar-button:hover {
   color: #040d92;
-  gap: 18px;
+  gap: 20px;
 }
 
-a {
+a.nav-link {
   text-decoration: none;
   padding: 8px;
   cursor: pointer;

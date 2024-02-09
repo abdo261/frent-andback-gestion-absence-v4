@@ -1,24 +1,27 @@
 import "./header.css";
 import { NotificationsNone } from "@material-ui/icons";
 import { Link } from "react-router-dom";
-const Header = ({toggleShowNotifications}) => {
+const Header = ({ toggleShowNotifications }) => {
   return (
     <div className="header">
       <div className="headerWrapper">
-        <Link className="header-left" to="/">
+        <Link className="header-left nav-link" to="/">
           <img src="/agenda_icon.png" alt="logo" className="header-left-logo" />
-          <span className="logo">
+          <span className="logo d-flex flex-column fw-bolder">
             {" "}
             <span>Suivi</span>
             <span>Absence </span>
           </span>
         </Link>
         <div className="header-right">
-          <div className="header-icons-container" onClick={toggleShowNotifications}>
+          <div
+            className="header-icons-container"
+            onClick={toggleShowNotifications}
+          >
             <NotificationsNone />
             <span className="header-icon-badg">2</span>
           </div>
-          <Link className="header-avatar" to="/profile">
+          <Link className="header-avatar nav-link" to="/profile">
             {" "}
             <span>oumar abbassi</span>
             <img

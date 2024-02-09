@@ -6,7 +6,9 @@ import {
   HiMiniUserGroup,
   HiOutlineClipboardDocumentList,
 } from "react-icons/hi2";
-import { FaChartLine,  FaArrowLeft } from "react-icons/fa";
+import { FaChartLine } from "react-icons/fa";
+import { IoIosArrowBack } from "react-icons/io";
+
 import { CiLogout } from "react-icons/ci";
 import { NavLink } from "react-router-dom";
 
@@ -17,7 +19,7 @@ const Sidbar = ({ showSidbar, toggleShow }) => {
         className={"toggle "+ (!showSidbar ? ("rotate"):("rerotate"))}
         onClick={toggleShow}
       >
-        <FaArrowLeft size={18} />
+        <IoIosArrowBack size={18} />
       </span>
       {showSidbar ? (
         <div className="sidbarWrapper">
@@ -25,21 +27,22 @@ const Sidbar = ({ showSidbar, toggleShow }) => {
             <h3 className="sidbar-title">Dashbord</h3>
             <ul className="sidbar-list">
               <li className="sidbar-list-item ">
-               <NavLink to="/commune"> <SlBadge /> Commune</NavLink>
+               <NavLink className="nav-link"  to="/commune"> <SlBadge /> Commune</NavLink>
               </li>
               <li className="sidbar-list-item">
-              <NavLink to="/etablissement"> <FaSchool /> Etablissement</NavLink>
+              <NavLink className="nav-link" to="/etablissement"> <FaSchool /> Etablissement</NavLink>
               </li>
             </ul>
+            
           </div>
           <div className="sidbarMenu">
             <h3 className="sidbar-title">Personnes</h3>
             <ul className="sidbar-list">
               <li className="sidbar-list-item">
-              <NavLink to="/enseignant"><HiMiniUserGroup /> Enseignant</NavLink> 
+              <NavLink className="nav-link" to="/enseignant"><HiMiniUserGroup /> Enseignant</NavLink> 
               </li>
               <li className="sidbar-list-item">
-              <NavLink to="/responsable"><ImUserTie /> Responsable</NavLink> 
+              <NavLink className="nav-link" to="/responsable"><ImUserTie /> Responsable</NavLink> 
               </li>
             </ul>
           </div>
@@ -47,10 +50,10 @@ const Sidbar = ({ showSidbar, toggleShow }) => {
             <h3 className="sidbar-title">Tableau De Bord</h3>
             <ul className="sidbar-list">
               <li className="sidbar-list-item">
-              <NavLink to="/absence"> <FaChartLine /> Absence</NavLink> 
+              <NavLink className="nav-link" to="/absence"> <FaChartLine /> Absence</NavLink> 
               </li>
               <li className="sidbar-list-item">
-              <NavLink to="/dommande"><HiOutlineClipboardDocumentList /> Dommande</NavLink> 
+              <NavLink className="nav-link" to="/dommande"><HiOutlineClipboardDocumentList /> Dommande</NavLink> 
               </li>
             </ul>
           </div>
@@ -61,7 +64,7 @@ const Sidbar = ({ showSidbar, toggleShow }) => {
           </div>
         </div>
       ) : (
-        <div style={{ width: "17px" }}> </div>
+        <div style={{ width: "13px" }}> </div>
       )}
     </div>
   );

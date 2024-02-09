@@ -1,8 +1,93 @@
-.home{
-    background-color: rgb(247, 136, 136);
-    width:100%;
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+.home {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
-.home-swiper{
-    width: 100%;
-    height: 300px;
+
+.home-title-container {
+  /* background-color: rgb(3, 30, 100); */
+  background-color: aliceblue;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 10px 0px;
+  text-align: center;
+  gap: 20px;
+  
+}
+
+.home-title {
+}
+.home-shild-title {
+  color: rgb(94, 94, 94);
+}
+
+.home-items {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 5px; */
+  
+  width: 100%;
+}
+.home-item-info {
+   background-color: aliceblue;
+   border-radius: 18px;
+   
+}
+.home-item {
+  background-color:#FCCB4F;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  height: 100%;
+}
+.home-item-icon,
+.home-item h3 {
+  text-align: center;
+}
+.home-item-text {
+  margin-top: 20px;
+  font-family: "Rubik", sans-serif;
+  align-items: center;
+  color: rgb(94, 94, 94);
+}
+.avatar-logo-home{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.home-user-info{
+  position: relative;
+  overflow: hidden;
+}
+.home-user-info-badg{
+  position: absolute;
+  top: 33px;
+  right: -55px;
+  width: 200px;
+  text-align: center;
+  padding: 3px 0px;
+  transform: rotate(45deg);
+}
+@media screen and (max-width: 768) {
+}
+@media screen and (max-width: 500px) {
+  .home-title {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .home-shild-title {
+    font-size: 15px;
+    font-weight: 500;
+  }
 }

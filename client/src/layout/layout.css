@@ -1,10 +1,13 @@
 .main-conteiner{
     display: grid;
-    grid-template-columns: 0fr 80%;
+    grid-template-columns: 0fr auto;
+    background-color: rgb(227, 227, 227);
 }
 .sidbar{
     transition: ease-in-out 0.5s;
 }
 .outher{
-padding: 10px;
+padding: 20px ;
+border-radius: 10px;
+background-color: white;
 }

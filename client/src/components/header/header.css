@@ -2,11 +2,11 @@
 .header{
     width: 100%;
     height: 50px;
-    background-color: rgb(221, 218, 218);
+    background-color: rgb(227, 227, 227);
     position: sticky;
     top: 0px;
     z-index: 999;
-    border-bottom: 1px solid #dedede;
+
 }
 
 .headerWrapper{
@@ -26,7 +26,7 @@
 .header-left-logo{
     width: 40px;
 }
-.logo{
+.logo.nav-link{
     font-weight: 800;
     font-size: 20px;
     color: darkblue;
@@ -62,7 +62,7 @@ justify-content: center;
 font-size: 10px;
 
 }
-.header-avatar{
+.header-avatar.nav-link{
     font-weight: 700;
     cursor: pointer;
     display: flex;
@@ -71,6 +71,7 @@ font-size: 10px;
     gap: 4px;
    
 }
+
 .avatar-logo{
      width: 40px;
     height: 40px;
@@ -86,10 +87,12 @@ font-size: 10px;
     .header-avatar{
         font-size: 15px;
     }
-    .header-avatar span {
+    .header-avatar span{
         display: flex;
         flex-wrap: nowrap;
-        gap: 2px;
+        font-size:14px ;
+        font-weight: 600;
     }
+
    
 }

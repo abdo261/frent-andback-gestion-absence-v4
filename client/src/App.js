@@ -8,7 +8,7 @@ import { homeRouter } from "./pages/home/routes";
 import { responsableRouter } from "./pages/responsable/routes";
 import { communeRouter } from "./pages/commune/routes";
 import { profileRouter } from "./pages/profile/routes";
-
+import 'bootstrap/dist/css/bootstrap.css'
 function App() {
   return (
     <div className="App">
