@@ -1,0 +1,10 @@
+.main-conteiner{
+    display: grid;
+    grid-template-columns: 0fr 80%;
+}
+.sidbar{
+    transition: ease-in-out 0.5s;
+}
+.outher{
+padding: 10px;
+}

@@ -1,0 +1,90 @@
+.notification-list {
+  position: absolute;
+  right: 0px;
+  top: 51px;
+  height: calc(100vh - 61px);
+  width: 300px;
+  background-color: rgba(251, 251, 255,0.1);
+  border-left: 2px solid #dedede;
+  transition: all 0.8s;
+  z-index: 999;
+  backdrop-filter: blur(3px);
+  padding: 5px 8px;
+  overflow-y: scroll;
+  gap: 5px;
+}
+
+.natification-iteme {
+  height: 74px;
+  margin: 8px 0px;
+  display: block;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 5px ;
+  background-color: #7e7e7e;
+  backdrop-filter: blur(3px);
+  color: azure;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+ 
+}
+
+.notification-item-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+
+  display: -moz-box;
+  -moz-box-orient: vertical;
+  -moz-line-clamp: 3;
+
+  display: box;
+  box-orient: vertical;
+  line-clamp: 3;
+
+}
+.natification-iteme:hover .notification-item-text {
+  -webkit-line-clamp: unset;
+  -moz-line-clamp: unset;
+  line-clamp: unset;
+}
+.natification-iteme:hover {
+  background-color: #a8a8a8;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  height: auto;
+  
+  min-height: 74px;
+}
+.notification-item-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+button.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid black;
+  padding: 4px;
+}
+button.btn-success {
+  background-color: rgb(1, 186, 1);
+}
+button.btn-danger {
+  background-color: rgb(255, 43, 43);
+}
+
+button.btn-success:hover,
+button.btn-danger:hover {
+  color: #dedede;
+  border: 1px solid #dedede;
+}
