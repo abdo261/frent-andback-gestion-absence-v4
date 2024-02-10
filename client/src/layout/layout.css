@@ -1,13 +1,20 @@
-.main-conteiner{
-    display: grid;
-    grid-template-columns: 0fr auto;
-    background-color: rgb(227, 227, 227);
+.main-conteiner {
+  display: grid;
+  grid-template-columns: 0fr auto;
+  background-color: rgb(227, 227, 227);
+  position: relative;
 }
-.sidbar{
-    transition: ease-in-out 0.5s;
+.sidbar {
+  transition: ease-in-out 0.5s;
+
 }
-.outher{
-padding: 20px ;
-border-radius: 10px;
-background-color: white;
+
+.outher {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: white;
+ overflow-y: auto;
+ overflow-x: hidden;
+ font-family: 'Roboto', sans-serif;
+
 }

@@ -11,7 +11,9 @@ const Input = ({
   className,
   placeholder,
   autoFocus=false,
-  require=false
+  require=false,
+  footer,
+  classFooter
 }) => {
   const [value, setValue] = useState(defaultValue);
   const handelChange = (e) => {
@@ -36,6 +38,7 @@ const Input = ({
         autoFocus={autoFocus}
         required={require}
       />
+      {footer &&  <div id="emailHelp" class={"form-text "+classFooter}>{footer}</div>}
     </div>
   );
 };

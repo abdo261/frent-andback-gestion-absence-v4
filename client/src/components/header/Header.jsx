@@ -1,5 +1,5 @@
 import "./header.css";
-import { NotificationsNone } from "@material-ui/icons";
+import { IoMdNotificationsOutline } from "react-icons/io";
 import { Link } from "react-router-dom";
 const Header = ({ toggleShowNotifications }) => {
   return (
@@ -18,7 +18,7 @@ const Header = ({ toggleShowNotifications }) => {
             className="header-icons-container"
             onClick={toggleShowNotifications}
           >
-            <NotificationsNone />
+            <IoMdNotificationsOutline />
             <span className="header-icon-badg">2</span>
           </div>
           <Link className="header-avatar nav-link" to="/profile">

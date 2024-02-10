@@ -1,6 +1,6 @@
 import "./home.css";
 import SwipperContainer from "../../components/share/swipper/SwipperContainer";
-import { MdOutlineAdminPanelSettings } from "react-icons/md";
+
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
         </h3>
       </div>
       <div className="home-items ">
-        <div className="row w-100 gap-1 mx-auto">
+        <div className="row w-100 gap-3 mx-auto">
           <div className="col-md-7 col-sm-6 home-item-info p-2 shadow-sm ">
             <UserInfo />
           </div>
@@ -55,16 +55,15 @@ const UserInfo = () => {
         </div>
         <div>
           <span className="fw-bold text text-secondary">Email :</span>
-         <span className="fw-medium"> oumar@gmail.com{" "}</span> 
+          <span className="fw-medium"> oumar@gmail.com </span>
         </div>
         <div>
           <span className="fw-bold text text-secondary">Role :</span>
-         <span className="fw-medium"> Admin</span> 
+          <span className="fw-medium"> Admin</span>
         </div>
       </div>
       <div className="home-user-info-badg d-flex justify-content-center bg-success text-light fw-bold">
-        
-       <span className="fs-6">Admin</span> 
+        <span className="fs-6">Admin</span>
       </div>
     </div>
   );

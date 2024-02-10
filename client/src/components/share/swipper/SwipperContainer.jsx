@@ -9,13 +9,19 @@ import "swiper/css/effect-cards";
 import "./swipper.css";
 
 // import required modules
-import { Autoplay, EffectCards } from "swiper/modules";
+import { Autoplay, EffectCards, Pagination } from "swiper/modules";
 import { HiUsers } from "react-icons/hi2";
 import { LuFileBadge } from "react-icons/lu";
 import { GrDocumentText } from "react-icons/gr";
 import { PiPresentationChartLight } from "react-icons/pi";
 
 export default function SwipperContainer() {
+  const progressCircle = useRef(null);
+  const progressContent = useRef(null);
+  const onAutoplayTimeLeft = (s, time, progress) => {
+    progressCircle.current?.style.setProperty('--progress', 1 - progress);
+    progressContent.current.textContent = `${Math.ceil(time / 1000)}s`;
+  };
   return (
     <>
       <Swiper
@@ -23,11 +29,16 @@ export default function SwipperContainer() {
           delay: 2500,
           disableOnInteraction: false,
         }}
+        centeredSlides={true}
+        pagination={{
+          clickable: true,
+        }}
         loop={true}
         effect={"cards"}
         grabCursor={true}
-        modules={[Autoplay, EffectCards]}
+        modules={[Autoplay, Pagination,EffectCards]}
         className="mySwiper"
+        onAutoplayTimeLeft={onAutoplayTimeLeft}
       >
         <SwiperSlide className=".swiper-slide">
           {" "}
@@ -85,6 +96,12 @@ export default function SwipperContainer() {
             </div>
           </div>
         </SwiperSlide>
+        <div className="autoplay-progress" slot="container-end">
+          <svg viewBox="0 0 48 48" ref={progressCircle}>
+            <circle cx="24" cy="24" r="20"></circle>
+          </svg>
+          <span ref={progressContent}></span>
+        </div>
       </Swiper>
     </>
   );

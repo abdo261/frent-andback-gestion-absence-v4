@@ -12,8 +12,8 @@ const Notification = ({ style }) => {
           alami pour 15 jour
         </span>
         <span className="notification-item-options">
-          <Btn icon={<FaCheck />} className="btn btn-success" />
-          <Btn icon={<FaBan />} className="btn btn-danger" />
+          <Btn icon={<FaCheck />} className="btn btn-success  btn-sm" />
+          <Btn icon={<FaBan />} className="btn btn-danger  btn-sm" />
         </span>
       </div>
     </div>
