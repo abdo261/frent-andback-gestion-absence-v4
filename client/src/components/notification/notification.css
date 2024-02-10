@@ -1,5 +1,5 @@
 .notification-list {
-  position: absolute;
+ position: fixed;
   right: 0px;
   top: 51px;
   height: calc(100vh - 61px);
