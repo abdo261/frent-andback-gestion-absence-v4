@@ -1,3 +1,20 @@
 a{
     text-decoration: none;
 }
+@media screen and (max-width: 768px) {
+    td, th {
+      font-size: 10px; 
+      vertical-align: middle;
+    }
+    button.btn.btn-action,a.btn.btn-action{
+        padding: 3px;
+        border: none;
+        background: none;
+        font-size: 15px; 
+        border-radius: 50%;
+    }
+    button.btn.btn-action:hover,a.btn.btn-action:hover{
+        background: none;
+        color: black;
+    }
+  }

@@ -1,8 +1,14 @@
+import { useState } from "react"
 import "./enseignant.css"
+import AdminEnsaignant from "./show/AdminEnsaignant"
+import ResponsableEnseignant from "./show/ResponsableEnseignant"
 
 const Enseignant = () => {
+  const [isAdmin,setIsAdmin]=useState(true)
   return (
-    <div>Enseignant</div>
+    <div>
+      {isAdmin ? (<AdminEnsaignant/>):(<ResponsableEnseignant />)}
+    </div>
   )
 }
 

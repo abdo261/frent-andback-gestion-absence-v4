@@ -41,15 +41,15 @@ const Table = () => {
           <td>1</td>
           <td>TanTan</td>
           <td>
-            <div className="d-flex justify-content-end gap-2 align-items-center">
+            <div className="d-flex justify-content-end gap-1 align-items-center">
              
-              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+              <Link className="btn btn-outline-warning btn-action  btn-sm rounded-circle" to='/commune/edite'>
                 {" "}
                 <BsPencil />
               </Link>
               <Btn
                 icon={<FaRegTrashAlt />}
-                className="btn btn-outline-danger btn-sm rounded-circle"
+                className="btn btn-outline-danger  btn-action btn-sm rounded-circle"
               />
             </div>
           </td>
@@ -60,13 +60,13 @@ const Table = () => {
           <td>
             <div className="d-flex justify-content-end gap-2 align-items-center">
              
-              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+              <Link className="btn btn-outline-warning btn-action  btn-sm rounded-circle" to='/commune/edite'>
                 {" "}
                 <BsPencil />
               </Link>
               <Btn
                 icon={<FaRegTrashAlt />}
-                className="btn btn-outline-danger btn-sm rounded-circle"
+                className="btn btn-outline-danger  btn-action btn-sm rounded-circle"
               />
             </div>
           </td>
@@ -77,13 +77,13 @@ const Table = () => {
           <td>
             <div className="d-flex justify-content-end gap-2 align-items-center">
              
-              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+              <Link className="btn btn-outline-warning btn-action  btn-sm rounded-circle" to='/commune/edite'>
                 {" "}
                 <BsPencil />
               </Link>
               <Btn
                 icon={<FaRegTrashAlt />}
-                className="btn btn-outline-danger btn-sm rounded-circle"
+                className="btn btn-outline-danger  btn-action btn-sm rounded-circle"
               />
             </div>
           </td>
@@ -94,13 +94,13 @@ const Table = () => {
           <td>
             <div className="d-flex justify-content-end gap-2 align-items-center">
              
-              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+              <Link className="btn btn-outline-warning btn-action  btn-sm rounded-circle" to='/commune/edite'>
                 {" "}
                 <BsPencil />
               </Link>
               <Btn
                 icon={<FaRegTrashAlt />}
-                className="btn btn-outline-danger btn-sm rounded-circle"
+                className="btn btn-outline-danger  btn-action btn-sm rounded-circle"
               />
             </div>
           </td>
@@ -111,13 +111,13 @@ const Table = () => {
           <td>
             <div className="d-flex justify-content-end gap-2 align-items-center">
              
-              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+              <Link className="btn btn-outline-warning btn-action  btn-sm rounded-circle" to='/commune/edite'>
                 {" "}
                 <BsPencil />
               </Link>
               <Btn
                 icon={<FaRegTrashAlt />}
-                className="btn btn-outline-danger btn-sm rounded-circle"
+                className="btn btn-outline-danger  btn-action btn-sm rounded-circle"
               />
             </div>
           </td>
@@ -128,13 +128,13 @@ const Table = () => {
           <td>
             <div className="d-flex justify-content-end gap-2 align-items-center">
              
-              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+              <Link className="btn btn-outline-warning btn-action  btn-sm rounded-circle" to='/commune/edite'>
                 {" "}
                 <BsPencil />
               </Link>
               <Btn
                 icon={<FaRegTrashAlt />}
-                className="btn btn-outline-danger btn-sm rounded-circle"
+                className="btn btn-outline-danger  btn-action btn-sm rounded-circle"
               />
             </div>
           </td>
@@ -145,13 +145,13 @@ const Table = () => {
           <td>
             <div className="d-flex justify-content-end gap-2 align-items-center">
              
-              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+              <Link className="btn btn-outline-warning btn-action  btn-sm rounded-circle" to='/commune/edite'>
                 {" "}
                 <BsPencil />
               </Link>
               <Btn
                 icon={<FaRegTrashAlt />}
-                className="btn btn-outline-danger btn-sm rounded-circle"
+                className="btn btn-outline-danger  btn-action btn-sm rounded-circle"
               />
             </div>
           </td>
@@ -162,13 +162,13 @@ const Table = () => {
           <td>
             <div className="d-flex justify-content-end gap-2 align-items-center">
              
-              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+              <Link className="btn btn-outline-warning btn-action  btn-sm rounded-circle" to='/commune/edite'>
                 {" "}
                 <BsPencil />
               </Link>
               <Btn
                 icon={<FaRegTrashAlt />}
-                className="btn btn-outline-danger btn-sm rounded-circle"
+                className="btn btn-outline-danger  btn-action btn-sm rounded-circle"
               />
             </div>
           </td>
@@ -179,13 +179,13 @@ const Table = () => {
           <td>
             <div className="d-flex justify-content-end gap-2 align-items-center">
              
-              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+              <Link className="btn btn-outline-warning btn-action  btn-sm rounded-circle" to='/commune/edite'>
                 {" "}
                 <BsPencil />
               </Link>
               <Btn
                 icon={<FaRegTrashAlt />}
-                className="btn btn-outline-danger btn-sm rounded-circle"
+                className="btn btn-outline-danger  btn-action btn-sm rounded-circle"
               />
             </div>
           </td>
@@ -196,13 +196,13 @@ const Table = () => {
           <td>
             <div className="d-flex justify-content-end gap-2 align-items-center">
              
-              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+              <Link className="btn btn-outline-warning btn-action  btn-sm rounded-circle" to='/commune/edite'>
                 {" "}
                 <BsPencil />
               </Link>
               <Btn
                 icon={<FaRegTrashAlt />}
-                className="btn btn-outline-danger btn-sm rounded-circle"
+                className="btn btn-outline-danger  btn-action btn-sm rounded-circle"
               />
             </div>
           </td>
@@ -213,13 +213,13 @@ const Table = () => {
           <td>
             <div className="d-flex justify-content-end gap-2 align-items-center">
              
-              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+              <Link className="btn btn-outline-warning btn-action  btn-sm rounded-circle" to='/commune/edite'>
                 {" "}
                 <BsPencil />
               </Link>
               <Btn
                 icon={<FaRegTrashAlt />}
-                className="btn btn-outline-danger btn-sm rounded-circle"
+                className="btn btn-outline-danger  btn-action btn-sm rounded-circle"
               />
             </div>
           </td>
@@ -230,13 +230,13 @@ const Table = () => {
           <td>
             <div className="d-flex justify-content-end gap-2 align-items-center">
              
-              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+              <Link className="btn btn-outline-warning btn-action  btn-sm rounded-circle" to='/commune/edite'>
                 {" "}
                 <BsPencil />
               </Link>
               <Btn
                 icon={<FaRegTrashAlt />}
-                className="btn btn-outline-danger btn-sm rounded-circle"
+                className="btn btn-outline-danger  btn-action btn-sm rounded-circle"
               />
             </div>
           </td>
@@ -247,13 +247,13 @@ const Table = () => {
           <td>
             <div className="d-flex justify-content-end gap-2 align-items-center">
              
-              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+              <Link className="btn btn-outline-warning btn-action  btn-sm rounded-circle" to='/commune/edite'>
                 {" "}
                 <BsPencil />
               </Link>
               <Btn
                 icon={<FaRegTrashAlt />}
-                className="btn btn-outline-danger btn-sm rounded-circle"
+                className="btn btn-outline-danger  btn-action btn-sm rounded-circle"
               />
             </div>
           </td>
@@ -264,13 +264,13 @@ const Table = () => {
           <td>
             <div className="d-flex justify-content-end gap-2 align-items-center">
              
-              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+              <Link className="btn btn-outline-warning btn-action  btn-sm rounded-circle" to='/commune/edite'>
                 {" "}
                 <BsPencil />
               </Link>
               <Btn
                 icon={<FaRegTrashAlt />}
-                className="btn btn-outline-danger btn-sm rounded-circle"
+                className="btn btn-outline-danger  btn-action btn-sm rounded-circle"
               />
             </div>
           </td>

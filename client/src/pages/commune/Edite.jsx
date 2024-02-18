@@ -6,11 +6,11 @@ const Edite = () => {
   return (
     <div className="create-commune">
       <div className="">
-        <h1 className="Commune-title"> Modifier Commune :</h1>
+        <h1 className="Commune-title"> Modifié Commune :</h1>
       </div>
-      <div className="container py-2 d-flex justify-content-center">
-        <div className="commune-create-forme-container">
-          <form className="w-100 h-100 shadow-lg p-4 border">
+      <div className="container d-flex justify-content-center">
+        
+          <form className="shadow-lg p-4 border fw-bold form-create-commune">
             <Input
               classParent="my-2"
               footer="Ne mettez pas les caractères spéciaux"
@@ -26,7 +26,7 @@ const Edite = () => {
               <Btn className="btn btn-primary" type="submit" text="crée" />
             </div>
           </form>
-        </div>
+       
       </div>
     </div>
   );

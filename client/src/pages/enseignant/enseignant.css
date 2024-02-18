@@ -1,0 +1,9 @@
+
+.enseignant-create-forme-container{
+    min-width: 400px;
+    
+}
+.enseignant-create-forme-container form{
+   background-color: aliceblue;
+   border-radius: 18px;
+}
