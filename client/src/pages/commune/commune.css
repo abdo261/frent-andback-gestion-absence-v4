@@ -3,7 +3,23 @@
     min-width: 400px;
     
 }
-.commune-create-forme-container form{
+ form.form-create-commune{
    background-color: aliceblue;
    border-radius: 18px;
+  width: 340px;
+}
+.form-control::placeholder,select option,select{
+    font-weight: 500;
+}
+select{
+    cursor: pointer;
+}
+@media only screen and (min-width: 768px) {
+    form.form-create-commune{
+      
+       width: 500px;
+     }
+}
+td{
+    font-weight: 600;
 }

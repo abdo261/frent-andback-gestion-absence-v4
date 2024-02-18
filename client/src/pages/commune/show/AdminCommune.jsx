@@ -1,6 +1,6 @@
 import { SlBadge } from "react-icons/sl";
 import { LuBadgePlus } from "react-icons/lu";
-import { BsEye, BsPencil } from "react-icons/bs";
+import {  BsPencil } from "react-icons/bs";
 import { FaRegTrashAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import Btn from "../../../components/share/Btn";
@@ -37,6 +37,227 @@ const Table = () => {
         </tr>
       </thead>
       <tbody>
+        <tr>
+          <td>1</td>
+          <td>TanTan</td>
+          <td>
+            <div className="d-flex justify-content-end gap-2 align-items-center">
+             
+              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+                {" "}
+                <BsPencil />
+              </Link>
+              <Btn
+                icon={<FaRegTrashAlt />}
+                className="btn btn-outline-danger btn-sm rounded-circle"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>TanTan</td>
+          <td>
+            <div className="d-flex justify-content-end gap-2 align-items-center">
+             
+              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+                {" "}
+                <BsPencil />
+              </Link>
+              <Btn
+                icon={<FaRegTrashAlt />}
+                className="btn btn-outline-danger btn-sm rounded-circle"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>TanTan</td>
+          <td>
+            <div className="d-flex justify-content-end gap-2 align-items-center">
+             
+              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+                {" "}
+                <BsPencil />
+              </Link>
+              <Btn
+                icon={<FaRegTrashAlt />}
+                className="btn btn-outline-danger btn-sm rounded-circle"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>TanTan</td>
+          <td>
+            <div className="d-flex justify-content-end gap-2 align-items-center">
+             
+              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+                {" "}
+                <BsPencil />
+              </Link>
+              <Btn
+                icon={<FaRegTrashAlt />}
+                className="btn btn-outline-danger btn-sm rounded-circle"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>TanTan</td>
+          <td>
+            <div className="d-flex justify-content-end gap-2 align-items-center">
+             
+              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+                {" "}
+                <BsPencil />
+              </Link>
+              <Btn
+                icon={<FaRegTrashAlt />}
+                className="btn btn-outline-danger btn-sm rounded-circle"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>TanTan</td>
+          <td>
+            <div className="d-flex justify-content-end gap-2 align-items-center">
+             
+              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+                {" "}
+                <BsPencil />
+              </Link>
+              <Btn
+                icon={<FaRegTrashAlt />}
+                className="btn btn-outline-danger btn-sm rounded-circle"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>TanTan</td>
+          <td>
+            <div className="d-flex justify-content-end gap-2 align-items-center">
+             
+              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+                {" "}
+                <BsPencil />
+              </Link>
+              <Btn
+                icon={<FaRegTrashAlt />}
+                className="btn btn-outline-danger btn-sm rounded-circle"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>TanTan</td>
+          <td>
+            <div className="d-flex justify-content-end gap-2 align-items-center">
+             
+              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+                {" "}
+                <BsPencil />
+              </Link>
+              <Btn
+                icon={<FaRegTrashAlt />}
+                className="btn btn-outline-danger btn-sm rounded-circle"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>TanTan</td>
+          <td>
+            <div className="d-flex justify-content-end gap-2 align-items-center">
+             
+              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+                {" "}
+                <BsPencil />
+              </Link>
+              <Btn
+                icon={<FaRegTrashAlt />}
+                className="btn btn-outline-danger btn-sm rounded-circle"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>TanTan</td>
+          <td>
+            <div className="d-flex justify-content-end gap-2 align-items-center">
+             
+              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+                {" "}
+                <BsPencil />
+              </Link>
+              <Btn
+                icon={<FaRegTrashAlt />}
+                className="btn btn-outline-danger btn-sm rounded-circle"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>TanTan</td>
+          <td>
+            <div className="d-flex justify-content-end gap-2 align-items-center">
+             
+              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+                {" "}
+                <BsPencil />
+              </Link>
+              <Btn
+                icon={<FaRegTrashAlt />}
+                className="btn btn-outline-danger btn-sm rounded-circle"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>TanTan</td>
+          <td>
+            <div className="d-flex justify-content-end gap-2 align-items-center">
+             
+              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+                {" "}
+                <BsPencil />
+              </Link>
+              <Btn
+                icon={<FaRegTrashAlt />}
+                className="btn btn-outline-danger btn-sm rounded-circle"
+              />
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>TanTan</td>
+          <td>
+            <div className="d-flex justify-content-end gap-2 align-items-center">
+             
+              <Link className="btn btn-outline-warning btn-sm rounded-circle" to='/commune/edite'>
+                {" "}
+                <BsPencil />
+              </Link>
+              <Btn
+                icon={<FaRegTrashAlt />}
+                className="btn btn-outline-danger btn-sm rounded-circle"
+              />
+            </div>
+          </td>
+        </tr>
         <tr>
           <td>1</td>
           <td>TanTan</td>

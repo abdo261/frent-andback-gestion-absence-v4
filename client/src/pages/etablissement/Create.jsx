@@ -47,7 +47,7 @@ const SelectSecteur = ({
   return (
     <div className={classParent}>
       <select className={className}>
-        <option value="">choisire le Secteur</option>
+        <option value="" >choisire le Secteur</option>
         {options.map((o) => (
           <option value={o}>{o}</option>
         ))}

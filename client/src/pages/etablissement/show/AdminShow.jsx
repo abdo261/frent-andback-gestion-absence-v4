@@ -1,4 +1,4 @@
-import { SlBadge } from "react-icons/sl";
+
 import { LuBadgePlus } from "react-icons/lu";
 import { BsEye, BsPencil } from "react-icons/bs";
 import { FaRegTrashAlt, FaSchool } from "react-icons/fa";

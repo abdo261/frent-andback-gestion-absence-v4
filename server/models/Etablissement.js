@@ -1,5 +1,5 @@
 const { Schema, model } = require("mongoose");
-
+const joi = require('joi')
 const etablissementSchema = new Schema({
   nom: {
     type: String,
@@ -23,3 +23,25 @@ const etablissementSchema = new Schema({
   },
 });
 
+const Etablissement = model('etablissement',etablissementSchema)
+
+const validateCreateEtablissement = (obj) => {
+  const etablissementSchema = joi.object({
+    nom: joi.string().trim().min(3).required(),
+    secteur: joi.string().valid("primaire", "collége", "lycée").required(),
+    responsable: joi.string().trim().allow(null), // Assuming responsible can be null
+    commune: joi.string().trim().allow(null), // Assuming commune can be null
+  });
+  return etablissementSchema.validate(obj);
+};
+const validateUpdateEtablissement = (obj) => {
+  const etablissementSchema = joi.object({
+    nom: joi.string().trim().min(3).required(),
+    secteur: joi.string().valid("primaire", "collége", "lycée").required(),
+    responsable: joi.string().trim().allow(null), 
+    commune: joi.string().trim().allow(null), 
+  }).or('nom', 'secteur', 'responsable', 'commune');
+  return etablissementSchema.validate(obj);
+};
+
+module.exports ={Etablissement,validateCreateEtablissement,validateUpdateEtablissement}

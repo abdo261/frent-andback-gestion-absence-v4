@@ -15,10 +15,14 @@ app.use(express.json())
 //import routers
 const userRouter = require('./routers/UserRouter')
 const communeRouter = require('./routers/CommuneRouter')
+const etablissementRouter = require('./routers/EtablissementRouter')
+const EnseignantRouter = require('./routers/EnseignantRouter')
 
 //end point 
 app.use('/api/users',userRouter)
 app.use('/api/communes',communeRouter)
+app.use('/api/etablissements',etablissementRouter)
+app.use('/api/enseignants',EnseignantRouter)
 
 //app listen
 app.listen(PORT,()=>console.log(`server raning good in port ${PORT}`))

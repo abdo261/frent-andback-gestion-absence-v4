@@ -18,7 +18,7 @@ const Header = ({ toggleShowNotifications }) => {
             className="header-icons-container"
             onClick={toggleShowNotifications}
           >
-            <IoMdNotificationsOutline />
+            <IoMdNotificationsOutline size={27}  />
             <span className="header-icon-badg">2</span>
           </div>
           <Link className="header-avatar nav-link" to="/profile">
